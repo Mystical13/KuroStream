@@ -1,0 +1,55 @@
+# Gradle
+.gradle/
+build/
+
+# Android
+captures/
+.externalNativeBuild/
+*.keystore
+*.jks
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.hprof
+
+# Android Studio
+*.ap_
+*.swp
+.DS_Store
+thumbs.db
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Proguard dictionary
+dump.txt
+mapping.txt
+seeds.txt
+usage.txt
+
+# Firebase
+google-services.json
+google-services-desktop.json
+
+# Firebase Emulator
+.firebase/
+firestore/
+functions/lib/
+
+# Generated files
+app/generated/
+app/build/
+app/intermediates/
+app/outputs/
+app/.externalNativeBuild/
+
+# Kotlin
+*.kotlin_metadata
+*.kotlin_built
+*. kt,* .class
+
+# Firebase Crashlytics
+crashlytics-build-id.properties
+fabric.properties
