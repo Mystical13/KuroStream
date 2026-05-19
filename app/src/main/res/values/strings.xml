@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kuro Stream</string>
+    <string name="title_home">Home</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_my_list">My List</string>
+    <string name="title_settings">Settings</string>
+</resources>
