@@ -29,15 +29,6 @@ mapping.txt
 seeds.txt
 usage.txt
 
-# Firebase
-google-services.json
-google-services-desktop.json
-
-# Firebase Emulator
-.firebase/
-firestore/
-functions/lib/
-
 # Generated files
 app/generated/
 app/build/
@@ -49,7 +40,3 @@ app/.externalNativeBuild/
 *.kotlin_metadata
 *.kotlin_built
 *. kt,* .class
-
-# Firebase Crashlytics
-crashlytics-build-id.properties
-fabric.properties
