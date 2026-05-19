@@ -23,7 +23,8 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
       with:
-        packages: platform-tools,build-tools-34.0.0,platforms;android-34,cmdline-tools;latest
+        api-level: 34
+        build-tools-version: 34.0.0
         accept-android-sdk-licenses: true
         log-accepted-android-sdk-licenses: true
 
@@ -65,3 +66,4 @@ jobs:
         path: |
           app/build/reports/tests/
           app/build/outputs/androidTest/debug/
+          
