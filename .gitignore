@@ -39,4 +39,5 @@ app/.externalNativeBuild/
 # Kotlin
 *.kotlin_metadata
 *.kotlin_built
-*. kt,* .class
+*.kt
+*.class
