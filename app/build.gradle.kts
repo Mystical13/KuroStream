@@ -3,8 +3,6 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
     id("org.jetbrains.kotlin.plugin.serialization")
-    id("com.google.gms.google-services") // For Firebase
-    id("com.google.firebase.crashlytics") // For Firebase
 }
 
 android {
@@ -48,8 +46,8 @@ android {
     buildFeatures {
         compose = true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+
+    composeOptions {        kotlinCompilerExtensionVersion = "1.5.1"
     }
 
     packaging {
@@ -96,8 +94,8 @@ dependencies {
 
     // Room
     implementation("androidx.room:room-runtime:2.6.1")
-    implementation("androidx.room:room-ktx:2.6.1")    kapt("androidx.room:room-compiler:2.6.1")
-
+    implementation("androidx.room:room-ktx:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
     // Image loading
     implementation("io.coil-kt:coil-compose:2.5.0")
 
@@ -107,11 +105,6 @@ dependencies {
     // Lifecycle
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
-
-    // Firebase
-    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
-    implementation("com.google.firebase:firebase-analytics-ktx")
-    implementation("com.google.firebase:firebase-crashlytics-ktx")
 
     // Testing
     testImplementation("junit:junit:4.13.2")
